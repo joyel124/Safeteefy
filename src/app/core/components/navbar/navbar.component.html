@@ -1,0 +1,11 @@
+<p>
+  <mat-toolbar color="primary">
+    <span>SafeteeCall by Safeteefy.io</span>
+    <span class="example-spacer"></span>
+    <div class="example-button-row">
+      <button mat-raised-button color="warn"  >{{guardianCurrent?.data.firstName}} {{guardianCurrent?.data.lastName}}</button>
+      <button mat-raised-button color="primary" [routerLink]="'/home'" >Home</button>
+      <button mat-raised-button color="primary"[routerLink]="'/urgencies'" >Urgencies</button>
+    </div>
+  </mat-toolbar>
+</p>
